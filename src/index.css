@@ -1,0 +1,25 @@
+.form {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 8px 12px;
+  margin: 1rem auto;
+  border: 1px solid blue;
+}
+
+.user {
+  flex: 1 0 8rem;
+}
+
+.pass {
+  flex: 1 0 8rem;
+}
+
+button {
+  flex: 1 0 4rem;
+  background-color: blue;
+  padding: 8px 12px;
+  color: white;
+  border: none;
+}
